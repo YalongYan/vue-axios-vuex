@@ -6,16 +6,22 @@
 
 ``` bash
 # install dependencies
-npm install
+cnpm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+cnpm run dev
 
 # build for production with minification
-npm run build
+cnpm run build
+构建完可以直接在本地访问dist文件里的index.html  
 
 # build for production and view the bundle analyzer report
-npm run build --report
+cnpm run build --report
 ```
+#开发环境和生产环境的配置是分开的  在config 的   dev.enc.js 和 prod.env.js 分别有配置。
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+#参考链接：
+https://segmentfault.com/a/1190000011072725
+#
+http://blog.csdn.net/u012369271/article/details/72848102
